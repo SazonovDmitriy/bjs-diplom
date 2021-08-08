@@ -9,11 +9,14 @@ userForm.loginFormCallback((data) => {
         }
 });
 
-// userForm.registerFormCallback((data) => {
-//     ApiConnector.login = ({data}, loginFormAction(data));
-//         if (ApiConnector.login) {
-//             location.reload();
-//         } else {
-//             setMessage(isSuccess, "Ошибка")
-//         }
-// });
+userForm.registerFormCallback((data) => {
+    ApiConnector.login = ({data}, registerFormAction(data));
+        if (ApiConnector.login) {
+            location.reload();
+        } else {
+            setRegisterErrorMessage(`Пользователь с логином ${login} и указанным паролем не найден`)
+            if (ApiConnector.login) {
+                logout(callback)
+            };
+        }
+});
