@@ -6,9 +6,9 @@
       "password": "demo",
       "id": 1,
       "balance": {
-        "RUB": 1000,
-        "USD": 20,
-        "EUR": 20,
+        "RUB": 958,
+        "USD": 20.299760191846524,
+        "EUR": 122.25431409177502,
         "NTC": 3000
       }
     },
@@ -31,7 +31,7 @@
       "password": "demo",
       "id": 3,
       "balance": {
-        "RUB": 20000,
+        "RUB": 20002,
         "USD": 300,
         "EUR": 500,
         "NTC": 50000
@@ -59,6 +59,234 @@
         "USD": 500,
         "EUR": 600,
         "NTC": 90000
+      }
+    },
+    {
+      "created_at": "2021-08-10T15:21:09.219Z",
+      "login": "d1313d",
+      "password": "d31d13",
+      "id": 6,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-10T15:32:25.990Z",
+      "login": "d31d",
+      "password": "3d1",
+      "id": 7,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-11T16:21:52.659Z",
+      "login": "d313d13d1d31",
+      "password": "3d113dd13",
+      "id": 8,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-12T13:29:27.844Z",
+      "login": "d13d31",
+      "password": "d31d13",
+      "id": 9,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-12T14:26:02.819Z",
+      "login": "d1331d",
+      "password": "d31d31",
+      "id": 10,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-12T15:16:40.416Z",
+      "login": "d3131d",
+      "password": "d313d1",
+      "id": 11,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-12T15:52:56.040Z",
+      "login": "d31",
+      "password": "d31",
+      "id": 12,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-12T16:35:31.116Z",
+      "login": "13c1c3",
+      "password": "c311c3",
+      "id": 13,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-12T16:36:56.661Z",
+      "login": "d3113dd31",
+      "password": "d313d13d1",
+      "id": 14,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-13T12:34:58.503Z",
+      "login": "31d",
+      "password": "3d1",
+      "id": 15,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-13T12:47:15.449Z",
+      "login": "d313d1",
+      "password": "d31d13",
+      "id": 16,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-13T12:47:43.442Z",
+      "login": "3d1",
+      "password": "d31",
+      "id": 17,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-13T12:47:49.618Z",
+      "login": "d13",
+      "password": "3d1",
+      "id": 18,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-13T13:06:14.622Z",
+      "login": "3d131d",
+      "password": "3d11d3",
+      "id": 19,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-13T13:19:37.788Z",
+      "login": "3d1d31",
+      "password": "3d1d31",
+      "id": 20,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-13T13:30:36.047Z",
+      "login": "d3113d",
+      "password": "d13d13d",
+      "id": 21,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-13T13:54:16.038Z",
+      "login": "d311d313dd31",
+      "password": "d3113d13d13d",
+      "id": 22,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-13T14:05:51.881Z",
+      "login": "dWDW@dawAW.ru",
+      "password": "d1331d",
+      "id": 23,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-08-13T14:06:38.594Z",
+      "login": "3d113d",
+      "password": "31d1d3",
+      "id": 24,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
       }
     }
   ],

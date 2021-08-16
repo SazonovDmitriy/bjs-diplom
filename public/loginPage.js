@@ -1,22 +1,24 @@
 "use strict";
 const userForm = new UserForm();
-userForm.loginFormCallback((data) => {
-    ApiConnector.login = loginFormAction(data);
-        if (ApiConnector.login) {
-            location.reload();
-        } else {
-            setLoginErrorMessage(message)
-        }
-});
 
-userForm.registerFormCallback((data) => {
-    ApiConnector.login = ({data}, registerFormAction(data));
-        if (ApiConnector.login) {
+userForm.loginFormCallback = (data) => {
+    ApiConnector.login(data, (response) => {
+        if (response.success) {
             location.reload();
         } else {
-            setRegisterErrorMessage(`Пользователь с логином ${login} и указанным паролем не найден`)
-            if (ApiConnector.login) {
-                logout(callback)
-            };
+            userForm.setLoginErrorMessage(`Произошла ошибка: ${response.success}`);
+            return response.data;
         }
-});
+    })
+};
+
+userForm.registerFormCallback = (data) => {
+    ApiConnector.register(data, (response) => {
+        if (response.success) {
+            location.reload();
+        } else {
+            userForm.setRegisterErrorMessage(`Пользователь с логином ${login} и указанным паролем не найден`);
+            return response.data;
+        }
+    });
+}
