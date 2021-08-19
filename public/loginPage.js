@@ -6,8 +6,7 @@ userForm.loginFormCallback = (data) => {
         if (response.success) {
             location.reload();
         } else {
-            userForm.setLoginErrorMessage(`Произошла ошибка: ${response.success}`);
-            return response.data;
+            userForm.setLoginErrorMessage(`Произошла ошибка: ${response.error}`);
         }
     })
 };
@@ -17,8 +16,7 @@ userForm.registerFormCallback = (data) => {
         if (response.success) {
             location.reload();
         } else {
-            userForm.setRegisterErrorMessage(`Пользователь с логином ${login} и указанным паролем не найден`);
-            return response.data;
+            userForm.setRegisterErrorMessage(`${response.error}`);
         }
     });
 }
